@@ -1,0 +1,85 @@
+{
+  "features" : [
+    "refractivity"
+  ],
+  "fill" : {
+    "automatic-gradient" : "extended-srgb:1.00000,0.21961,0.23529,1.00000"
+  },
+  "groups" : [
+    {
+      "blend-mode" : "normal",
+      "blur-material" : 0.5,
+      "hidden" : false,
+      "layers" : [
+        {
+          "image-name" : "text-to-svg-1781325016785.svg",
+          "name" : "shuo",
+          "position" : {
+            "scale" : 1.8,
+            "translation-in-points" : [
+              -204.5815888634162,
+              -184.73833240966508
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "text-to-svg-1781325031567.svg",
+          "name" : "wen",
+          "position" : {
+            "scale" : 1.85,
+            "translation-in-points" : [
+              193.3762952608488,
+              -202.26166759033515
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "text-to-svg-1781325049117.svg",
+          "name" : "jie",
+          "position" : {
+            "scale" : 1.7,
+            "translation-in-points" : [
+              -189.19981381669078,
+              185.176667590335
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "text-to-svg-1781325055584.svg",
+          "name" : "zi",
+          "position" : {
+            "scale" : 1.8,
+            "translation-in-points" : [
+              211.4215888634161,
+              174.74666759033494
+            ]
+          }
+        }
+      ],
+      "lighting" : "individual",
+      "refractivity" : {
+        "depth" : 0.71671875,
+        "enabled" : true,
+        "strength" : 0.0273046875
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 1
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.2
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
