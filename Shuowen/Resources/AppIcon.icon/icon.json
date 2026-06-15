@@ -12,48 +12,60 @@
       "hidden" : false,
       "layers" : [
         {
+          "image-name" : "paragraphsign@3x.png",
+          "name" : "paragraphsign@3x",
+          "position" : {
+            "scale" : 0.9,
+            "translation-in-points" : [
+              -15.669813816690862,
+              39.056667590334996
+            ]
+          }
+        },
+        {
+          "hidden" : true,
           "image-name" : "text-to-svg-1781325016785.svg",
           "name" : "shuo",
           "position" : {
             "scale" : 1.8,
             "translation-in-points" : [
-              -204.5815888634162,
-              -184.73833240966508
+              -192.15981381669081,
+              -181.2600000000001
             ]
           }
         },
         {
-          "hidden" : false,
+          "hidden" : true,
           "image-name" : "text-to-svg-1781325031567.svg",
           "name" : "wen",
           "position" : {
-            "scale" : 1.85,
+            "scale" : 1.7,
             "translation-in-points" : [
-              193.3762952608488,
-              -202.26166759033515
+              160.14,
+              -192.3483324096651
             ]
           }
         },
         {
-          "hidden" : false,
+          "hidden" : true,
           "image-name" : "text-to-svg-1781325049117.svg",
           "name" : "jie",
           "position" : {
             "scale" : 1.7,
             "translation-in-points" : [
-              -189.19981381669078,
+              -177.66733564232055,
               185.176667590335
             ]
           }
         },
         {
-          "hidden" : false,
+          "hidden" : true,
           "image-name" : "text-to-svg-1781325055584.svg",
           "name" : "zi",
           "position" : {
             "scale" : 1.8,
             "translation-in-points" : [
-              211.4215888634161,
+              160.59275690690913,
               174.74666759033494
             ]
           }

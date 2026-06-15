@@ -1,0 +1,39 @@
+Shuowen Third-Party Notices
+============================
+
+This application includes the following third-party components.
+
+
+Shuowen Dictionary Data
+-------------------------
+Copyright 2019 Shuowen.org
+
+Dictionary data derived from the shuowenjiezi/shuowen project:
+https://github.com/shuowenjiezi/shuowen
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this data except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
+Jigmo (字雲) Font
+-----------------
+Koichi Uechi (上地宏一)
+https://kamichikoichi.github.io/jigmo/
+
+This application embeds the Jigmo, Jigmo2, and Jigmo3 font files.
+
+The font author has dedicated the font to the public domain under
+CC0 1.0 Universal (CC0 1.0). To the extent possible under law, the
+author has waived all copyright and related rights.
+
+Full license text:
+https://creativecommons.org/publicdomain/zero/1.0/

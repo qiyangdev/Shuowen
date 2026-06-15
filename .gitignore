@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+xcuserdata/
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Environment / secrets
+.env
+.env.*
+
+# Project: import & store build
+Scripts/import.log
+Scripts/entries/
+Shuowen/Resources/shuowen.store
+
+# Project: Jigmo fonts (large; see https://kamichikoichi.github.io/jigmo/)
+Shuowen/Fonts/Jigmo.ttf
+Shuowen/Fonts/Jigmo2.ttf
+Shuowen/Fonts/Jigmo3.ttf
+
+# Profiling artifacts
+*.profraw
