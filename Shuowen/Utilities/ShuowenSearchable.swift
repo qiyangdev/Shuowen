@@ -21,17 +21,11 @@ extension View {
         -> some View
     {
         #if os(macOS)
-            toolbar {
-                ToolbarItem(placement: .principal) {
-                    HStack(spacing: 6) {
-                        Image(systemName: "magnifyingglass")
-                            .foregroundStyle(.secondary)
-                        TextField(prompt, text: text)
-                            .textFieldStyle(.roundedBorder)
-                            .frame(minWidth: 260, maxWidth: 360)
-                    }
-                }
-            }
+            searchable(
+                text: text,
+                placement: .automatic,
+                prompt: prompt
+            )
         #else
             searchable(
                 text: text,

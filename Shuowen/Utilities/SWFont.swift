@@ -28,10 +28,10 @@ enum SWFont {
             if let uiFont = uiFont(size: size) {
                 return Font(uiFont)
             }
+            return .custom(primaryPostScriptName, size: size)
         #elseif canImport(AppKit)
             return Font(nsFont(size: size))
         #endif
-        return .custom(primaryPostScriptName, size: size)
     }
 
     #if canImport(UIKit)
